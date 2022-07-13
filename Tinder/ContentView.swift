@@ -9,11 +9,14 @@ import SwiftUI
 
 struct ScrollView: View {
     var body: some View {
-        Text("Hello, a jó kurva anyád!")
-            .padding()
-        Image("DSC_0830").resizable();
-        Text("==").padding()
-        Image("chad-appicon").resizable()
+        VStack{
+            Text("Hello, a jó kurva anyád!")
+                .padding()
+            Image("DSC_0830").resizable();
+            Text("==").padding()
+            Image("chad-appicon").resizable()
+        }
+        
     }
 }
 
