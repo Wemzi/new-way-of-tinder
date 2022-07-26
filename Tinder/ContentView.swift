@@ -12,6 +12,15 @@ struct ScrollView: View {
         VStack{
             Text("Hello, a jó kurva anyád!")
                 .padding()
+            Button("Hello joska", action: {
+                print("wassup")
+            })
+            
+            Button(action: {
+                print("yes")
+            },label:{
+                Text("xd")
+            })
             Image("DSC_0830").resizable();
             Text("==").padding()
             Image("chad-appicon").resizable()
