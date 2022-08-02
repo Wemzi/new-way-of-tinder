@@ -24,6 +24,11 @@ let guyContainer:[Guy] = [Guy(age: 21, name: "Vízkeleti Bálint", profilePictur
 struct ContentView: View {
     @State var actualGuy = guyContainer[0]
     
+    func getNewGuy()
+    {
+        
+    }
+    
     func handleDislike()
     {
         actualGuy.dislike()
@@ -41,7 +46,7 @@ struct ContentView: View {
     var body: some View {
         VStack{
             Image("appTitle")
-            actualGuy.getPicture().padding()
+            actualGuy.getPicture().resizable().padding()
             Text(actualGuy.getName() + ", " + actualGuy.getAge()).bold()
             HStack{
                 Spacer()
