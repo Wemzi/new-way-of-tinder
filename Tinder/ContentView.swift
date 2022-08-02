@@ -26,6 +26,11 @@ struct ContentView: View {
     
     func getNewGuy()
     {
+        var prevGuy = actualGuy
+        while(prevGuy.getName() == actualGuy.getName())
+        {
+            actualGuy = guyContainer.randomElement()!
+        }
         
     }
     
@@ -33,14 +38,12 @@ struct ContentView: View {
     {
         actualGuy.dislike()
         print(actualGuy.getName())
-        actualGuy = guyContainer.randomElement()!
     }
     
     func handleLike()
     {
         actualGuy.like()
         print(actualGuy.getName())
-        actualGuy = guyContainer.randomElement()!
     }
     
     var body: some View {
