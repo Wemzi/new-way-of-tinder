@@ -38,16 +38,19 @@ struct ContentView: View {
     {
         actualGuy.dislike()
         print(actualGuy.getName())
+        getNewGuy()
     }
     
     func handleLike()
     {
         actualGuy.like()
         print(actualGuy.getName())
+        getNewGuy()
     }
     
     var body: some View {
         VStack{
+            Spacer()
             Image("appTitle")
             actualGuy.getPicture().resizable().padding()
             Text(actualGuy.getName() + ", " + actualGuy.getAge()).bold()
