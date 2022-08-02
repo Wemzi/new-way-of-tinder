@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		912D5E93289978CE0084890E /* Guy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912D5E92289978CE0084890E /* Guy.swift */; };
 		91A190E7287B3E6000D8E993 /* asdApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A190E6287B3E6000D8E993 /* asdApp.swift */; };
 		91A190E9287B3E6000D8E993 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A190E8287B3E6000D8E993 /* ContentView.swift */; };
 		91A190EB287B3E6300D8E993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91A190EA287B3E6300D8E993 /* Assets.xcassets */; };
@@ -34,7 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		91A190E3287B3E6000D8E993 /* Tinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		912D5E92289978CE0084890E /* Guy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guy.swift; sourceTree = "<group>"; };
+		91A190E3287B3E6000D8E993 /* Baszunk?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Baszunk?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91A190E6287B3E6000D8E993 /* asdApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asdApp.swift; sourceTree = "<group>"; };
 		91A190E8287B3E6000D8E993 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		91A190EA287B3E6300D8E993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -84,7 +86,7 @@
 		91A190E4287B3E6000D8E993 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				91A190E3287B3E6000D8E993 /* Tinder.app */,
+				91A190E3287B3E6000D8E993 /* Baszunk?.app */,
 				91A190F3287B3E6300D8E993 /* TinderTests.xctest */,
 				91A190FD287B3E6300D8E993 /* TinderUITests.xctest */,
 			);
@@ -98,6 +100,7 @@
 				91A190E8287B3E6000D8E993 /* ContentView.swift */,
 				91A190EA287B3E6300D8E993 /* Assets.xcassets */,
 				91A190EC287B3E6300D8E993 /* Preview Content */,
+				912D5E92289978CE0084890E /* Guy.swift */,
 			);
 			path = Tinder;
 			sourceTree = "<group>";
@@ -144,7 +147,7 @@
 			);
 			name = Tinder;
 			productName = asd;
-			productReference = 91A190E3287B3E6000D8E993 /* Tinder.app */;
+			productReference = 91A190E3287B3E6000D8E993 /* Baszunk?.app */;
 			productType = "com.apple.product-type.application";
 		};
 		91A190F2287B3E6300D8E993 /* TinderTests */ = {
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91A190E9287B3E6000D8E993 /* ContentView.swift in Sources */,
+				912D5E93289978CE0084890E /* Guy.swift in Sources */,
 				91A190E7287B3E6000D8E993 /* asdApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,7 +436,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = lkcsdvdProductions.asd;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Baszunk?";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -461,7 +465,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = lkcsdvdProductions.asd;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Baszunk?";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

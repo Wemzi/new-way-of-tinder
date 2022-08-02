@@ -11,7 +11,7 @@ import SwiftUI
 struct asdApp: App {
     var body: some Scene {
         WindowGroup {
-            ScrollView()
+            ContentView()
         }
     }
 }
