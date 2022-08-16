@@ -25,13 +25,23 @@ let guyContainer:[Guy] = [Guy(age: 21, name: "Vízkeleti Bálint", profilePictur
 struct ContentView: View {
     @State var actualGuy = guyContainer[0]
     private var imageSize : CGFloat = 350
+    private var boundSize : CGFloat = 150
     @State private var offset = CGSize.zero
     var dragGesture: some Gesture {
             DragGesture()
             .onChanged { value in
                 offset = CGSize(width: value.startLocation.x + value.translation.width - imageSize/2,
                                 height: value.startLocation.y + value.translation.height - imageSize/2 )
+                if(offset.width>boundSize)
+                {
+                    handleLike()
+                    offset=CGSize.zero
                 }
+                else if(offset.width+boundSize<imageSize*0.25){
+                    handleDislike()
+                    offset=CGSize.zero
+                }
+            }
             .onEnded{value in offset=CGSize.zero}
                
         }
@@ -56,6 +66,7 @@ struct ContentView: View {
     func handleLike()
     {
         actualGuy.like()
+        print("like")
         print(actualGuy.getName())
         getNewGuy()
     }
