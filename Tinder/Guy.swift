@@ -11,11 +11,12 @@ import SwiftUI
 
 class Guy
 {
-    private var profilePicture:Image
+    public var profilePicture:Image
     private var name:String
     private var likes:Int
     private var totalVotes:Int
     private var age:Int
+    
     
     init(age:Int,name:String,profilePictureString:String){
         self.age = age

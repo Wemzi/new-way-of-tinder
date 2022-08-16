@@ -18,15 +18,27 @@ let guyContainer:[Guy] = [Guy(age: 21, name: "Vízkeleti Bálint", profilePictur
                           Guy(age: 21, name: "Rátfai Levente", profilePictureString: "RLevi" ),
                           Guy(age: 21, name: "Beke Gábor", profilePictureString: "BGabor" ),
                           Guy(age: 21, name: "Berecz Dénes", profilePictureString: "BDenes" ),
-                          Guy(age: 21, name: "Szekeres Ákos", profilePictureString: "SzAkos" )
+                          Guy(age: 21, name: "Szekeres Ákos", profilePictureString: "SzAkos" ),
+                          Guy(age: 21, name: "Magyar Tamás", profilePictureString: "MTamas" )
 ]
 
 struct ContentView: View {
     @State var actualGuy = guyContainer[0]
+    private var imageSize : CGFloat = 350
+    @State private var offset = CGSize.zero
+    var dragGesture: some Gesture {
+            DragGesture()
+            .onChanged { value in
+                offset = CGSize(width: value.startLocation.x + value.translation.width - imageSize/2,
+                                height: value.startLocation.y + value.translation.height - imageSize/2 )
+                }
+            .onEnded{value in offset=CGSize.zero}
+               
+        }
     
     func getNewGuy()
     {
-        var prevGuy = actualGuy
+        let prevGuy = actualGuy
         while(prevGuy.getName() == actualGuy.getName())
         {
             actualGuy = guyContainer.randomElement()!
@@ -52,7 +64,7 @@ struct ContentView: View {
         VStack{
             Spacer()
             Image("appTitle")
-            actualGuy.getPicture().resizable().padding()
+            actualGuy.getPicture().resizable().offset(offset).frame(width:imageSize,height: imageSize).scaledToFit().padding().gesture(dragGesture)
             Text(actualGuy.getName() + ", " + actualGuy.getAge()).bold()
             HStack{
                 Spacer()
