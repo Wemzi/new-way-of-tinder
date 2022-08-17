@@ -25,33 +25,42 @@ let guyContainer:[Guy] = [Guy(age: 21, name: "Vízkeleti Bálint", profilePictur
 struct ContentView: View {
     @State var actualGuy = guyContainer[0]
     private var imageSize : CGFloat = 350
-    private var boundSize : CGFloat = 150
+    private var boundSize : CGFloat = 200
     @State var isDragging = false
+    @State var ignoreDragging = false
     @State private var offset = CGSize.zero
-    @State private var currentOpacity:CGFloat = 100
+    @State private var currentOpacity:CGFloat = 1
+    @State private var currentColor = Color.green
     var dragGesture: some Gesture {
-            DragGesture()
+        DragGesture()
             .onChanged { value in
+                if(ignoreDragging){ return}
                 offset = CGSize(width: value.startLocation.x + value.translation.width - imageSize/2,
                                 height: value.startLocation.y + value.translation.height - imageSize/2 )
                 self.isDragging = true
                 self.currentOpacity = 1 - abs(offset.width/100)
-                print(offset.width)
-                if(offset.width>boundSize)
+                self.currentColor = value.translation.width > 0 ? .green : .red
+                if(value.translation.width>boundSize)
                 {
                     handleLike()
                     offset=CGSize.zero
-                    
+                    self.isDragging=false
+                    self.ignoreDragging = true
+                    self.currentOpacity = 1
                 }
-                else if(offset.width<(-1*boundSize)){
+                else if(value.translation.width<(-1*boundSize)){
                     handleDislike()
                     offset=CGSize.zero
+                    self.isDragging=false
+                    self.ignoreDragging = true
+                    self.currentOpacity = 1
                 }
             }
             .onEnded{value in
                 offset=CGSize.zero
                 self.isDragging = false
                 self.currentOpacity=1
+                self.ignoreDragging = false
             }
                
         }
@@ -102,7 +111,7 @@ struct ContentView: View {
                 })
                 Spacer()
             }
-        }
+        }.background(currentColor.opacity(1-currentOpacity))
         
     }
 }
