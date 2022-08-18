@@ -9,12 +9,17 @@
 import Foundation
 import SwiftUI
 
-class Guy
+struct Guy : Hashable
 {
+    static func == (lhs: Guy, rhs: Guy) -> Bool {
+        return lhs.name == rhs.name && lhs.age == rhs.age
+    }
+    
+    
     public var profilePicture:Image
     private var name:String
-    private var likes:Int
-    private var totalVotes:Int
+    @State private var likes:Int
+    @State private var totalVotes:Int
     private var age:Int
     
     

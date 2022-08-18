@@ -94,7 +94,12 @@ struct ContentView: View {
         VStack{
             Spacer()
             Image("appTitle")
-            actualGuy.getPicture().resizable().offset(offset).frame(width:imageSize,height: imageSize).scaledToFit().padding().gesture(dragGesture).opacity(currentOpacity)
+            ZStack{
+                ForEach(guyContainer, id: \.self){ card in
+                card.getPicture().resizable().padding().gesture(DragGesture)
+                
+            }
+            }
             Text(actualGuy.getName() + ", " + actualGuy.getAge()).bold()
             HStack{
                 Spacer()
