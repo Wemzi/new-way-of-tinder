@@ -9,10 +9,16 @@
 import Foundation
 import SwiftUI
 
-struct Guy : Hashable
+class Guy: Hashable
 {
     static func == (lhs: Guy, rhs: Guy) -> Bool {
-        return lhs.name == rhs.name && lhs.age == rhs.age
+        return lhs.name == rhs.name && lhs.age == rhs.age && lhs.profilePicture == rhs.profilePicture
+    }
+    
+    func hash(into hasher: inout Hasher)
+    {
+        hasher.combine(age)
+        hasher.combine(name)
     }
     
     

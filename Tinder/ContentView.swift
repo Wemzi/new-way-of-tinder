@@ -95,12 +95,12 @@ struct ContentView: View {
             Spacer()
             Image("appTitle")
             ZStack{
-                ForEach(guyContainer, id: \.self){ card in
-                card.getPicture().resizable().padding().gesture(DragGesture)
-                
+                ForEach(guyContainer.shuffled(), id: \.self){ card in
+                    card.getPicture().resizable().padding().gesture(dragGesture)
+                    Text(card.getName() + ", " + card.getAge()).bold().colorInvert().padding(.top, 785).position(x: 90)
+                }
             }
-            }
-            Text(actualGuy.getName() + ", " + actualGuy.getAge()).bold()
+
             HStack{
                 Spacer()
                 Button(action: {
