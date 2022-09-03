@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "7c210285ad91bfaec743ad1cdc75c0a36a39d4994ee93a2203d801d0d6081829"
+build_start_time: [1662208691, 176059007]
+build_end_time: [1662208694, 678856849]
+inputs:
+  "/Users/lkcsdvd/Documents/GitHub/asd/Tinder/ContentView.swift": [1662208379, 719548225]
+  "/Users/lkcsdvd/Documents/GitHub/asd/Tinder/Guy.swift": [1662208379, 719905853]
+  "/Users/lkcsdvd/Documents/GitHub/asd/Tinder/asdApp.swift": [1660770612, 974845409]

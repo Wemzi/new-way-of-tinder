@@ -1,0 +1,13 @@
+Target dependency graph (8 targets)
+Tinder in Tinder, no dependencies
+Tinder in Tinder, no dependencies
+TinderTests in Tinder, depends on:
+Tinder in Tinder (explicit)
+TinderTests in Tinder, depends on:
+Tinder in Tinder (explicit)
+TinderTests in Tinder, no dependencies
+TinderUITests in Tinder, depends on:
+Tinder in Tinder (explicit)
+TinderUITests in Tinder, depends on:
+Tinder in Tinder (explicit)
+TinderUITests in Tinder, no dependencies

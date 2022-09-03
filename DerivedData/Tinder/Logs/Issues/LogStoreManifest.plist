@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>1A76364F-41D0-4080-8B39-3103F9C086D3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>1A76364F-41D0-4080-8B39-3103F9C086D3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>signature</key>
+			<string>Tinder-ebungdnjlnayyscyyilalsvxiwek</string>
+			<key>timeStartedRecording</key>
+			<real>683903382.16413295</real>
+			<key>timeStoppedRecording</key>
+			<real>683903382.49037004</real>
+			<key>title</key>
+			<string>Build target Tinder</string>
+			<key>uniqueIdentifier</key>
+			<string>1A76364F-41D0-4080-8B39-3103F9C086D3</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>

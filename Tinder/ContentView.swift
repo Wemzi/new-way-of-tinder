@@ -26,23 +26,20 @@ struct ContentView: View {
     @State var actualGuy = guyContainer[0]
     private var imageSize : CGFloat = 350
     private var boundSize : CGFloat = 200
-    @State var isDragging = false
-    @State var ignoreDragging = false
-    @State private var offset = CGSize.zero
     @State private var currentOpacity:CGFloat = 1
     @State private var currentColor = Color.green
     var dragGesture: some Gesture {
         DragGesture()
             .onChanged { value in
-                if(ignoreDragging){ return}
-                offset = CGSize(width: value.startLocation.x + value.translation.width - imageSize/2,
-                                height: value.startLocation.y + value.translation.height - imageSize/2 )
-                self.isDragging = true
+                withAnimation(.default){
+                    actualGuy.x = value.translation.width
+                    actualGuy.y = value.translation.height
+                    actualGuy.degree = 7 * (value.translation.width > 0 ? 1 : -1)
                 self.currentOpacity = 1 - abs(offset.width/100)
                 self.currentColor = value.translation.width > 0 ? .green : .red
                 if(value.translation.width>boundSize)
                 {
-                    handleLike()
+                    /*handleLike()
                     offset=CGSize.zero
                     self.isDragging=false
                     self.ignoreDragging = true
@@ -53,14 +50,14 @@ struct ContentView: View {
                     offset=CGSize.zero
                     self.isDragging=false
                     self.ignoreDragging = true
-                    self.currentOpacity = 1
+                    self.currentOpacity = 1*/
                 }
+                }
+                
             }
             .onEnded{value in
                 offset=CGSize.zero
-                self.isDragging = false
                 self.currentOpacity=1
-                self.ignoreDragging = false
             }
                
         }
@@ -79,7 +76,7 @@ struct ContentView: View {
     {
         actualGuy.dislike()
         print(actualGuy.getName())
-        getNewGuy()
+        //getNewGuy()
     }
     
     func handleLike()
@@ -87,7 +84,7 @@ struct ContentView: View {
         actualGuy.like()
         print("like")
         print(actualGuy.getName())
-        getNewGuy()
+        //getNewGuy()
     }
     
     var body: some View {
@@ -95,11 +92,10 @@ struct ContentView: View {
             Spacer()
             Image("appTitle")
             ZStack{
-                ForEach(guyContainer.shuffled(), id: \.self){ card in
-                    card.getPicture().resizable().padding().gesture(dragGesture)
-                    Text(card.getName() + ", " + card.getAge()).bold().colorInvert().padding(.top, 785).position(x: 90)
-                }
-            }
+                //ForEach(guyContainer.shuffled(), id: \.self){ card in
+                actualGuy.getPicture().resizable().padding()
+                    Text(actualGuy.getName() + ", " + actualGuy.getAge()).bold().colorInvert().padding(.top, 785).position(x: 90)
+                }.gesture(dragGesture).offset(x: actualGuy.x, y: actualGuy.y)
 
             HStack{
                 Spacer()

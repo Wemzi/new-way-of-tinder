@@ -1,0 +1,66 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "67cdb2b3535a75feaeee7578fbef956e17dc1b3daee2da656a8e6c34b0c2818e"
+    },
+    {
+      "guid" : "67cdb2b3535a75feaeee7578fbef956e91c0666171b927d36d7bb4bbd1d4fe27"
+    },
+    {
+      "guid" : "67cdb2b3535a75feaeee7578fbef956e84442bb55005f095f0ab2bc7a7817a2a"
+    }
+  ],
+  "containerPath" : "/Users/lkcsdvd/Documents/GitHub/asd/Tinder.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator15.5",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/lkcsdvd/Documents/GitHub/asd/DerivedData/Tinder/Index/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/lkcsdvd/Documents/GitHub/asd/DerivedData/Tinder/Index/Build/Products",
+      "derivedDataPath" : "/Users/lkcsdvd/Documents/GitHub/asd/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/lkcsdvd/Documents/GitHub/asd/DerivedData/Tinder/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/lkcsdvd/Documents/GitHub/asd/DerivedData/Tinder/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/lkcsdvd/Documents/GitHub/asd/DerivedData/Tinder/Index/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/lkcsdvd/Documents/GitHub/asd/DerivedData/Tinder/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

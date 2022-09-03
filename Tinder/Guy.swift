@@ -21,12 +21,15 @@ class Guy: Hashable
         hasher.combine(name)
     }
     
-    
+    let id = UUID()
     public var profilePicture:Image
     private var name:String
     @State private var likes:Int
     @State private var totalVotes:Int
     private var age:Int
+    var x: CGFloat = 0.0
+    var y: CGFloat = 0.0
+    var degree : Double = 0.0
     
     
     init(age:Int,name:String,profilePictureString:String){
