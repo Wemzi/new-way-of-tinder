@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>16FA6710-42DF-4915-BDA8-45E62AB2D0F8</key>
+		<key>3B236775-283F-4222-BA9B-434B71AAEE77</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>16FA6710-42DF-4915-BDA8-45E62AB2D0F8.xcactivitylog</string>
+			<string>3B236775-283F-4222-BA9B-434B71AAEE77.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,47 +32,13 @@
 			<key>signature</key>
 			<string>Run Baszunk?</string>
 			<key>timeStartedRecording</key>
-			<real>683901920.48088598</real>
+			<real>683968972.77492201</real>
 			<key>timeStoppedRecording</key>
-			<real>683901932.64584506</real>
+			<real>683969072.673455</real>
 			<key>title</key>
 			<string>Run Baszunk?</string>
 			<key>uniqueIdentifier</key>
-			<string>16FA6710-42DF-4915-BDA8-45E62AB2D0F8</string>
-		</dict>
-		<key>20577CC6-6108-4FEA-8115-21148D7C9DDE</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>20577CC6-6108-4FEA-8115-21148D7C9DDE.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Tinder project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Tinder</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run Baszunk?</string>
-			<key>timeStartedRecording</key>
-			<real>683901932.43734503</real>
-			<key>timeStoppedRecording</key>
-			<real>683902099.27787399</real>
-			<key>title</key>
-			<string>Run Baszunk?</string>
-			<key>uniqueIdentifier</key>
-			<string>20577CC6-6108-4FEA-8115-21148D7C9DDE</string>
+			<string>3B236775-283F-4222-BA9B-434B71AAEE77</string>
 		</dict>
 		<key>66FBC61A-DAA6-43C7-A397-53BADD9B3CC5</key>
 		<dict>
@@ -108,7 +74,7 @@
 			<key>uniqueIdentifier</key>
 			<string>66FBC61A-DAA6-43C7-A397-53BADD9B3CC5</string>
 		</dict>
-		<key>7CC4BCF0-5FA8-4CE0-9E09-EE0226181955</key>
+		<key>86D22967-D3DF-49A7-B40B-B6FA2AA3C5EA</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -117,7 +83,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>7CC4BCF0-5FA8-4CE0-9E09-EE0226181955.xcactivitylog</string>
+			<string>86D22967-D3DF-49A7-B40B-B6FA2AA3C5EA.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -134,15 +100,15 @@
 			<key>signature</key>
 			<string>Run Baszunk?</string>
 			<key>timeStartedRecording</key>
-			<real>683902099.55612004</real>
+			<real>683968734.75519204</real>
 			<key>timeStoppedRecording</key>
-			<real>683902290.69851005</real>
+			<real>683968945.13213801</real>
 			<key>title</key>
 			<string>Run Baszunk?</string>
 			<key>uniqueIdentifier</key>
-			<string>7CC4BCF0-5FA8-4CE0-9E09-EE0226181955</string>
+			<string>86D22967-D3DF-49A7-B40B-B6FA2AA3C5EA</string>
 		</dict>
-		<key>C8EC05BC-956C-43A8-9A40-B86B7EE4AA1C</key>
+		<key>C46F6E04-DE00-4BF3-A1F8-79AFD723AB30</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -151,7 +117,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>C8EC05BC-956C-43A8-9A40-B86B7EE4AA1C.xcactivitylog</string>
+			<string>C46F6E04-DE00-4BF3-A1F8-79AFD723AB30.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -168,149 +134,13 @@
 			<key>signature</key>
 			<string>Run Baszunk?</string>
 			<key>timeStartedRecording</key>
-			<real>683901495.87675202</real>
+			<real>683968945.93219197</real>
 			<key>timeStoppedRecording</key>
-			<real>683901919.73847604</real>
+			<real>683968971.63887703</real>
 			<key>title</key>
 			<string>Run Baszunk?</string>
 			<key>uniqueIdentifier</key>
-			<string>C8EC05BC-956C-43A8-9A40-B86B7EE4AA1C</string>
-		</dict>
-		<key>D50D5E91-287A-4805-B084-0F9EF3EA21C8</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>D50D5E91-287A-4805-B084-0F9EF3EA21C8.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Tinder project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Tinder</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run Baszunk?</string>
-			<key>timeStartedRecording</key>
-			<real>683903227.44960403</real>
-			<key>timeStoppedRecording</key>
-			<real>683903257.04758406</real>
-			<key>title</key>
-			<string>Run Baszunk?</string>
-			<key>uniqueIdentifier</key>
-			<string>D50D5E91-287A-4805-B084-0F9EF3EA21C8</string>
-		</dict>
-		<key>E5F4D238-820E-423B-B936-AF7F57420D5A</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>E5F4D238-820E-423B-B936-AF7F57420D5A.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Tinder project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Tinder</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run Baszunk?</string>
-			<key>timeStartedRecording</key>
-			<real>683902854.05430102</real>
-			<key>timeStoppedRecording</key>
-			<real>683903226.85690105</real>
-			<key>title</key>
-			<string>Run Baszunk?</string>
-			<key>uniqueIdentifier</key>
-			<string>E5F4D238-820E-423B-B936-AF7F57420D5A</string>
-		</dict>
-		<key>F36CB40F-9A6B-401D-82E4-EDE9F44FD2E0</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>F36CB40F-9A6B-401D-82E4-EDE9F44FD2E0.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Tinder project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Tinder</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run Baszunk?</string>
-			<key>timeStartedRecording</key>
-			<real>683902362.802495</real>
-			<key>timeStoppedRecording</key>
-			<real>683902768.16993403</real>
-			<key>title</key>
-			<string>Run Baszunk?</string>
-			<key>uniqueIdentifier</key>
-			<string>F36CB40F-9A6B-401D-82E4-EDE9F44FD2E0</string>
-		</dict>
-		<key>FD3AFB35-3AB3-4500-BD65-924E2B241F43</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>FD3AFB35-3AB3-4500-BD65-924E2B241F43.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Tinder project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Tinder</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run Baszunk?</string>
-			<key>timeStartedRecording</key>
-			<real>683902770.91391098</real>
-			<key>timeStoppedRecording</key>
-			<real>683902853.416206</real>
-			<key>title</key>
-			<string>Run Baszunk?</string>
-			<key>uniqueIdentifier</key>
-			<string>FD3AFB35-3AB3-4500-BD65-924E2B241F43</string>
+			<string>C46F6E04-DE00-4BF3-A1F8-79AFD723AB30</string>
 		</dict>
 	</dict>
 </dict>

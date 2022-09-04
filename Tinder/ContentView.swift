@@ -35,7 +35,6 @@ struct ContentView: View {
                     actualGuy.x = value.translation.width
                     actualGuy.y = value.translation.height
                     actualGuy.degree = 7 * (value.translation.width > 0 ? 1 : -1)
-                self.currentOpacity = 1 - abs(offset.width/100)
                 self.currentColor = value.translation.width > 0 ? .green : .red
                 if(value.translation.width>boundSize)
                 {
@@ -56,7 +55,6 @@ struct ContentView: View {
                 
             }
             .onEnded{value in
-                offset=CGSize.zero
                 self.currentOpacity=1
             }
                
@@ -93,9 +91,9 @@ struct ContentView: View {
             Image("appTitle")
             ZStack{
                 //ForEach(guyContainer.shuffled(), id: \.self){ card in
-                actualGuy.getPicture().resizable().padding()
+                actualGuy.getPicture().resizable()
                     Text(actualGuy.getName() + ", " + actualGuy.getAge()).bold().colorInvert().padding(.top, 785).position(x: 90)
-                }.gesture(dragGesture).offset(x: actualGuy.x, y: actualGuy.y)
+            }.gesture(dragGesture).offset(x: actualGuy.x, y: actualGuy.y)
 
             HStack{
                 Spacer()
