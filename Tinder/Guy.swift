@@ -9,7 +9,7 @@
 import Foundation
 import SwiftUI
 
-class Guy: Hashable
+class Guy: Identifiable
 {
     static func == (lhs: Guy, rhs: Guy) -> Bool {
         return lhs.name == rhs.name && lhs.age == rhs.age && lhs.profilePicture == rhs.profilePicture
