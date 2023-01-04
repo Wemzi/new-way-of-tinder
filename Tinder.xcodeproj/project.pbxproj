@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		912D5E93289978CE0084890E /* Guy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912D5E92289978CE0084890E /* Guy.swift */; };
+		919BB3302964E6CD008202AA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919BB32F2964E6CD008202AA /* CardView.swift */; };
 		91A190E7287B3E6000D8E993 /* asdApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A190E6287B3E6000D8E993 /* asdApp.swift */; };
 		91A190E9287B3E6000D8E993 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A190E8287B3E6000D8E993 /* ContentView.swift */; };
 		91A190EB287B3E6300D8E993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91A190EA287B3E6300D8E993 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		912D5E92289978CE0084890E /* Guy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guy.swift; sourceTree = "<group>"; };
+		919BB32F2964E6CD008202AA /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		91A190E3287B3E6000D8E993 /* Baszunk?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Baszunk?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91A190E6287B3E6000D8E993 /* asdApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asdApp.swift; sourceTree = "<group>"; };
 		91A190E8287B3E6000D8E993 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				91A190EA287B3E6300D8E993 /* Assets.xcassets */,
 				91A190EC287B3E6300D8E993 /* Preview Content */,
 				912D5E92289978CE0084890E /* Guy.swift */,
+				919BB32F2964E6CD008202AA /* CardView.swift */,
 			);
 			path = Tinder;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			files = (
 				91A190E9287B3E6000D8E993 /* ContentView.swift in Sources */,
 				912D5E93289978CE0084890E /* Guy.swift in Sources */,
+				919BB3302964E6CD008202AA /* CardView.swift in Sources */,
 				91A190E7287B3E6000D8E993 /* asdApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

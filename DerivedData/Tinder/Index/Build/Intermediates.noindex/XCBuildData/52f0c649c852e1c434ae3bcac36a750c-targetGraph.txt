@@ -1,3 +1,0 @@
-Target dependency graph (2 targets)
-Tinder in Tinder, no dependencies
-Tinder in Tinder, no dependencies

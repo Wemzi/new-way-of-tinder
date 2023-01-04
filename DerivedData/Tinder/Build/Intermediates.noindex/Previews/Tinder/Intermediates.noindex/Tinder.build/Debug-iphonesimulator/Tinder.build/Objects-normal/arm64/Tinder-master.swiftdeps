@@ -1,8 +1,9 @@
-version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
-options: "1f9836559ceb6bc0a3e4cce06e042457fedbe7baf637eecaa37eeb0032a1779c"
-build_start_time: [1662209774, 612851142]
-build_end_time: [1662209775, 42135953]
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "04295232a20a7483a95ca6360ed19f6bba98bf0aada916bdc05205ba16809de5"
+build_start_time: [1672787789, 101577997]
+build_end_time: [1672787790, 416143894]
 inputs:
-  "/Users/lkcsdvd/Documents/GitHub/asd/Tinder/ContentView.swift": [1662209559, 884353637]
-  "/Users/lkcsdvd/Documents/GitHub/asd/Tinder/Guy.swift": [1662209746, 452051162]
-  "/Users/lkcsdvd/Documents/GitHub/asd/Tinder/asdApp.swift": [1660770612, 974845409]
+  "/Users/lkcsdvd/Documents/GitHub/TinderClone/Tinder/CardView.swift": [1672787743, 390343666]
+  "/Users/lkcsdvd/Documents/GitHub/TinderClone/Tinder/ContentView.swift": [1672786821, 265188694]
+  "/Users/lkcsdvd/Documents/GitHub/TinderClone/Tinder/Guy.swift": [1672786344, 769563674]
+  "/Users/lkcsdvd/Documents/GitHub/TinderClone/Tinder/asdApp.swift": [1672769936, 932199239]
