@@ -34,6 +34,23 @@ struct Guy: Identifiable
         self.degree = 0
     }
     
+    mutating func handleLike()
+    {
+        withAnimation(.interpolatingSpring(mass: 1.0, stiffness: 50, damping: 8, initialVelocity: 0))
+        {
+            self.x = 500
+            self.degree = 12
+        }
+    }
+    mutating func handleDislike()
+    {
+        withAnimation(.interpolatingSpring(mass: 1.0, stiffness: 50, damping: 8, initialVelocity: 0))
+        {
+            self.x = -500
+            self.degree = -12
+        }
+    }
+    
     static var guyContainer:[Guy] = [Guy(age: 21, name: "Vízkeleti Bálint", profilePictureString: "VBalint" ),
                                          Guy(age: 23, name: "Lukács Dávid", profilePictureString: "LDavid" ),
                                          Guy(age: 94, name: "Südi Bence", profilePictureString: "SBence" ),
